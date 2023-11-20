@@ -27,3 +27,56 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*Added CSS rulse to solve exercise*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+ul{
+  padding-left: 10px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  flex: 1;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.card {
+  margin: 30px;
+  padding: 16px;
+  max-width: 40vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
