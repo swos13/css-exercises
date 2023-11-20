@@ -25,3 +25,46 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/*Added css rules to solve the exercise*/
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+
+}
+
+.content{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+}
+
+.footer {
+  background: rgba(240,240,240);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(100,100,100);
+}
